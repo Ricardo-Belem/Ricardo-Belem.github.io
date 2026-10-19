@@ -1,0 +1,14 @@
+/* Estilos para o site de Ricardo Belém */
+.cabeçalho {
+    text-align: center;
+}
+.footer-nav {
+    background-color: #dbdbdb; 
+    border: 1px solid black; 
+    font-size: 17px; 
+    padding: 5px;
+    text-decoration: none;
+}
+#inicio a {
+    text-decoration: none;
+}
