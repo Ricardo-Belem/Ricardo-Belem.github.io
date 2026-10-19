@@ -2,11 +2,18 @@
 <html>
     <head> <!--Nome do site na aba-->
         <title>Ricardo Belém</title>
+        <link rel="stylesheet" href="style.css"> <!--Link para o arquivo CSS-->
+        <link rel="icon" href="logo RB.png" type="image/png"> <!--Ícone do site na aba-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--como irá funcionar para ve no celular-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Página pessoal de Ricardo Belém, estudante de mecatrônica e entusiasta de tecnologia.">
     </head>
-    <body>
+    <body>  
         <header id="inicio"> <!--Cabeçalho que fica em cima-->
-            <img src="foto_Ricardo_Belem.jpeg.jpeg" alt="Foto de Ricardo Belém" width="150">
-            <h1>Ricardo Belém</h1>
+            <div class="cabeçalho">
+                <img src="foto_Ricardo_Belem.jpeg.jpeg" alt="Foto de Ricardo Belém" width="150">
+                <h1>Ricardo Belém</h1>
+            </div>    
             <h2>Bem-vindo ao meu website!</h2>
             <nav>
                 <ul> <!--Lista de navegação-->                        
@@ -42,22 +49,28 @@
                     <li>Ensino médio</li>
                     <li>Ensino Técnico em mecatrônica</li>
                     <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
             </section>
             <section id="redes">
                 <h2>Minhas redes sociais</h2>
                 <ul>
-                    <li><a href="https://www.instagram.com/ricardoblmf/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.tiktok.com/@ricardoblmf" target="_blank">TikTok</a></li>
-                    <li><a href="https://github.com/Ricardo-Belem" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/josé-ricardo-belém-da-silva-filho-36477a420" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/ricardoblmf/" target="_blank"
+                        rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@ricardoblmf" target="_blank"
+                        rel="noopener noreferrer">TikTok</a></li>
+                    <li><a href="https://github.com/Ricardo-Belem" target="_blank"
+                        rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/josé-ricardo-belém-da-silva-filho-36477a420" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></li>
                 </ul>
                 <p>Acompanhe meus projetos, aprendizados e interesses através dos meus perfis!</p>
             </section>
         </main> 
         <footer> <!--Rodapé que fica em baixo-->
             <nav>
-                <a href="#inicio"><b>INÍCIO &uarr;</b></a><br>
+                <a href="#inicio"  class="footer-nav">
+                <b>INÍCIO &uarr;</b></a>
             </nav>
             <p>&copy; 2026 Ricardo Belém. Todos os direitos reservados.</p>
         </footer>
