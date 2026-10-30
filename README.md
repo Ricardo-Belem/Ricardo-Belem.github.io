@@ -3,6 +3,7 @@
 Um projeto pessoal criado totalmente do zero por mim. Este site fala um pouco sobre mim, meus interesses, objetivos e o que estou estudando atualmente.
 ## Tecnologia utilizada
 - HTML
+- CSS
 ## Objetivo
 O meu objetivo com este projeto é praticar o que estou aprendendo e começar a transformar ideias em projetos. Este site será atualizado conforme eu aprender mais sobre HTML.
 ## Feito por
